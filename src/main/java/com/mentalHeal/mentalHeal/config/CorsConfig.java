@@ -13,7 +13,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // apply CORS to these routes
-                        .allowedOrigins("http://localhost:5173","https://focus-frontend.loca.lt")
+                        .allowedOrigins("http://localhost:5173","https://https://mentalheal-front.vercel.app/")
                         // allow frontend origin
                         .allowedMethods("GET", "POST", "PUT", "DELETE") // allow these HTTP methods
                         .allowedHeaders("*") // allow any headers
